@@ -30,7 +30,8 @@ header {
   border-radius: 5px; 
   margin: 2rem;
   padding-left: 2rem;
-  background-color: rgb(3, 44, 58);
+  background: linear-gradient( rgb(181, 7, 187), rgb(17, 79, 194),rgb(17, 204, 173)); 
+  box-shadow: 10px 5px 5px black;
 }
 
 .hello-world {
@@ -57,22 +58,24 @@ header {
 
 .paragraph {
   width: 50%;
-  background-color:  rgb(252, 51, 235);
+  background: linear-gradient(rgb(17, 204, 173), rgb(17, 79, 194), rgb(181, 7, 187)); 
   padding: 1rem;
   font-size: 1.5rem;
   border: solid rgb(87, 245, 224) 0.5rem;
   border-radius: 5px;
   color: rgb(238, 232, 232);
   text-shadow: 1px 1px black;
+  box-shadow: 10px 5px 5px black;
 }
 
 .manatee-pic {
   width: 40%;
   height: 40%;
-  background-color: rgb(252, 51, 235);
+  background: linear-gradient(rgb(17, 204, 173), rgb(17, 79, 194), rgb(181, 7, 187)); 
   padding: 1rem;
   border: solid  rgb(87, 245, 224) 0.5rem;
   border-radius:5px;
+  box-shadow: 10px 5px 5px black;
 }
 .main-section {
   display: flex;
@@ -99,15 +102,33 @@ main {
   border: solid rgb(87, 245, 224) 10px;
   border-radius: 5px;
   padding: 0 10px;
-  background-color: rgb(252, 51, 235); 
+  background: linear-gradient(rgb(17, 204, 173), rgb(17, 79, 194), rgb(181, 7, 187)); 
   margin: 1rem 0rem;
   color: rgb(238, 232, 232);
   text-align: center;
+  box-shadow: 10px 5px 5px black;
 }
 
-.side-box-1-ul, .side-box-2-ul{
+.side-box-1-ul, .side-box-2-ul {
   text-decoration: none; 
   list-style: none;
+  font-size: 1.5rem;
+  color: rgb(238, 232, 232);
+  text-shadow: 1px 1px black;
+  
+}
+
+.side-box h2 {
+  font-size: 2rem;
+  color: rgb(238, 232, 232);
+  text-shadow: 1px 1px black;
+}
+
+.faq-title {
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  
 }
 
 .FAQ {
@@ -118,18 +139,39 @@ main {
 }
 
 .paragraph-faq {
-  width: 50%;
-  background-color:  rgb(252, 51, 235);
-  padding: 0.5rem;
+  width: 100%;
+  background: linear-gradient( rgb(181, 7, 187), rgb(17, 79, 194),rgb(17, 204, 173)); ; 
+  padding: 0rem 12rem;
   font-size: 1.5rem;
   border: solid rgb(87, 245, 224) 0.5rem;
   color: rgb(238, 232, 232);
   text-shadow: 1px 1px black;
   margin: 1rem 0rem;
   text-align: center;
+  box-shadow: 10px 5px 5px black;
 }
 
-#faq-header {
+#faq-header, caption{
+  background: linear-gradient(rgb(17, 204, 173), rgb(17, 79, 194), rgb(181, 7, 187)); 
+  padding: 3rem 1rem;
   font-size: 3rem;
-  text-shadow: 1px 1px rgb(136, 52, 136);
+  border: solid rgb(87, 245, 224) 0.5rem;
+  color: rgb(238, 232, 232);
+  text-shadow: 1px 1px black;
+  margin: 1rem 0rem;
+  text-align: center;
+  box-shadow: 10px 5px 5px black;
 }
+
+a:hover {
+  background: linear-gradient(red, orange, yellow, green, blue, violet);
+  border: solid black 2px;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  box-shadow: 10px 5px 5px black;
+}
+
+a:active {
+  background-color: rgb(243, 223, 223);
+}
+
